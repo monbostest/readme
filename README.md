@@ -299,3 +299,18 @@ docker run -d -p 9090:9090 -v /opt/node_project/prometheus.yml:/etc/prometheus/p
 docker run -d  -p 9113:9113 nginx/nginx-prometheus-expor
 ter:0.8.0 -nginx.scrape-uri http://<ipaddress>:81/metrics
 ```
+
+
+Seond part
+
+### How to create  EKS Cluster using eksctl
+
+### Prerequisites:
+ - Install eksctl 
+ - Install aws cli
+ - Configure Aws cli
+
+- [ ] use below command to create cluster
+```
+eksctl create cluster
+```
